@@ -1,0 +1,34 @@
+@keyframes reveal {
+    from{
+    margin-top: 100px;
+    width: 50px;
+    height: 20px;
+    background-color: black;
+
+    }to{
+    width: 100px;
+    height: 200px;
+
+    }
+}
+
+div{
+    transition: width 1s;
+    margin-top: 100px;
+    width: 50px;
+    height: 20px;
+    background-color: black;
+}
+div:hover{
+    animation-name: reveal;
+    animation-duration: 1s;
+    width: 100px;
+    height: 200px;
+}
+
+/* .anim{
+    animation-name: reveal;
+    animation-duration: 1s;
+    width: 100px;
+    height: 200px;
+} */
