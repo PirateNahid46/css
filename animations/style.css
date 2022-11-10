@@ -1,14 +1,18 @@
 div{
     display: block;
-    transition: width 1s, height 1s, color 1s;
+    transition: width 1s, height 1s, color 200ms 0s;
     margin-top: 100px;
     width: 50px;
     height: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
     color:rgba(0, 0, 0, 0);
     background-color: black;
 }
 div:hover{
     width: 100px;
-    height: 200px;
+    height: 100px;
     color: azure;
+    transition: width 1s, height 1s, color 1s 700ms;
 }
