@@ -1,34 +1,14 @@
-@keyframes reveal {
-    from{
-    margin-top: 100px;
-    width: 50px;
-    height: 20px;
-    background-color: black;
-
-    }to{
-    width: 100px;
-    height: 200px;
-
-    }
-}
-
 div{
-    transition: width 1s;
+    display: block;
+    transition: width 1s, height 1s, color 1s;
     margin-top: 100px;
     width: 50px;
     height: 20px;
+    color:rgba(0, 0, 0, 0);
     background-color: black;
 }
 div:hover{
-    animation-name: reveal;
-    animation-duration: 1s;
     width: 100px;
     height: 200px;
+    color: azure;
 }
-
-/* .anim{
-    animation-name: reveal;
-    animation-duration: 1s;
-    width: 100px;
-    height: 200px;
-} */
